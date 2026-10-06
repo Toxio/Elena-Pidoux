@@ -22,8 +22,12 @@ Le dossier `dist` peut être hébergé sur un hébergement statique. Pour une pu
 
 - `src/main.jsx` : textes, parcours, liens de contact et CV.
 - `src/style.css` : styles et adaptation mobile.
-- `public/cv` : documents retirés du site. Le cas pratique téléchargeable est dans `public/documents` et les photographies extraites dans `public/images`.
+- `public/cv` : documents retirés du site. Le cas pratique est présenté sur `/projet` ; ses photographies sont dans `public/images`.
 
 Les informations sont issues des quatre CV fournis. Le chantier d’Anglet est explicitement présenté comme un projet personnel. Les photographies et la description du projet proviennent de Pidoux_Cas_Pratique.pdf. Les gains énergétiques sont présentés comme des résultats de simulation. Un portrait pourra être ajouté.
 
 Le site n’utilise ni formulaire serveur, ni cookies, ni outil de suivi. Les liens de contact ouvrent le client email ou téléphone. Les polices Google Fonts sont externes ; les polices système prennent le relais hors connexion.
+
+## Page projet
+
+`src/ProjectPage.jsx` et `src/project.css` présentent les 23 pages du cas pratique sous forme de sections HTML, tableaux et photos. La page principale ouvre `/projet` dans un nouvel onglet. Aucun PDF à télécharger. `vercel.json` assure l’accès direct et le rechargement de cette route sur Vercel.

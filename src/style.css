@@ -8,3 +8,7 @@
 .approach-intro>p:last-child:nth-child(3){grid-column:1 / -1;max-width:850px}
 
 .about-profile{display:grid;grid-template-columns:160px minmax(0,1fr);gap:45px;padding:35px 0 15px;border-top:1px solid var(--line)}.about-profile>.eyebrow{padding-top:6px}.about-copy{max-width:850px}.about-copy p{font-size:18px;line-height:1.9;color:var(--muted);margin-bottom:26px}.about-copy p:first-child{font-size:22px;line-height:1.7;color:var(--green)}@media(max-width:700px){.about-profile{grid-template-columns:1fr;gap:5px;padding-top:25px}.about-copy p{font-size:16px}.about-copy p:first-child{font-size:19px}.about-profile>.eyebrow{margin-bottom:14px}}
+
+.experience-tasks{padding-left:19px;margin:15px 0 0;max-width:760px;color:var(--muted)}.experience-tasks li{font-size:15px;line-height:1.8;margin-bottom:9px}.degrees .sst-certificate{margin-top:12px}.skills{row-gap:40px}.tag{line-height:1.6}
+
+.skills-practical{margin-top:42px;grid-template-columns:repeat(3,minmax(0,1fr));gap:34px}.skills-practical p{margin-bottom:0}@media(max-width:700px){.skills-practical{grid-template-columns:1fr;gap:24px}.skills-practical h4{margin-bottom:10px}}
